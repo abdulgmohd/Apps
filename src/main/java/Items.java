@@ -1,14 +1,16 @@
 public class Items {
 
-    public static void printInfo(){
+    public String getFtpUser(){
         String userId = System.getenv("FTP_USER");
-        String pw = System.getenv("FTP_PASSWORD");
-        System.out.println("FTP_USER: " + userId);
-        System.out.println("FTP_PASSWORD: "+ pw);
+        return userId;
     }
 
-    public static void main (String[] args){
-        printInfo();
+
+    public String getFtpPassword(){
+        String pw = System.getenv("FTP_PASSWORD");
+        return pw;
     }
+
+
 
 }
