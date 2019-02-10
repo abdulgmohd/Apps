@@ -15,7 +15,7 @@ public class ItemsTest {
     public void verifyFtpUserPassword(){
         Items item = new Items();
         String pw = item.getFtpPassword();
-        Assert.assertEquals(pw , "ftpuser");
+        Assert.assertEquals(pw , "password");
 
     }
 }
