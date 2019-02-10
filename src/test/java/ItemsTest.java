@@ -1,3 +1,4 @@
+import org.junit.Assert;
 import org.junit.Test;
 
 public class ItemsTest {
@@ -5,14 +6,16 @@ public class ItemsTest {
     @Test
     public void verifyFtpUser(){
         Items item = new Items();
-        item.getFtpUser().equalsIgnoreCase("ftpuser");
+        String userId= item.getFtpUser();
+        Assert.assertEquals(userId , "ftpuser");
 
     }
 
     @Test
     public void verifyFtpUserPassword(){
         Items item = new Items();
-        item.getFtpPassword().equalsIgnoreCase("passord");
+        String pw = item.getFtpPassword();
+        Assert.assertEquals(pw , "ftpuser");
 
     }
 }
