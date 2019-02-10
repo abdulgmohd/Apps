@@ -12,7 +12,7 @@ public class ItemsTest {
     @Test
     public void verifyFtpUserPassword(){
         Items item = new Items();
-        item.getFtpPassword().equalsIgnoreCase("password");
+        item.getFtpPassword().equalsIgnoreCase("passord");
 
     }
 }
