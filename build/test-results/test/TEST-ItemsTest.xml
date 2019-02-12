@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ItemsTest" tests="2" skipped="0" failures="2" errors="0" timestamp="2019-02-10T06:49:29" hostname="Abduls-MacBook-Air.local" time="0.005">
+<testsuite name="ItemsTest" tests="2" skipped="0" failures="2" errors="0" timestamp="2019-02-12T03:01:19" hostname="Abduls-MacBook-Air.local" time="0.004">
   <properties/>
-  <testcase name="verifyFtpUserPassword" classname="ItemsTest" time="0.004">
-    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
-	at ItemsTest.verifyFtpUserPassword(ItemsTest.java:15)
+  <testcase name="verifyFtpUserPassword" classname="ItemsTest" time="0.003">
+    <failure message="java.lang.AssertionError: expected:&lt;null&gt; but was:&lt;password&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;null&gt; but was:&lt;password&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at ItemsTest.verifyFtpUserPassword(ItemsTest.java:18)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -52,8 +56,12 @@
 </failure>
   </testcase>
   <testcase name="verifyFtpUser" classname="ItemsTest" time="0.0">
-    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
-	at ItemsTest.verifyFtpUser(ItemsTest.java:8)
+    <failure message="java.lang.AssertionError: expected:&lt;null&gt; but was:&lt;ftpuser&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;null&gt; but was:&lt;ftpuser&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at ItemsTest.verifyFtpUser(ItemsTest.java:10)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
