@@ -11,6 +11,17 @@ public class Items {
         return pw;
     }
 
+    public String getCCNumber(String[] creditCard){
+        return creditCard[0];
+
+    }
+    public String getExpirty(String[] creditCard){
+        return creditCard[1];
+
+    }
+    public String getCVC(String[] creditCard){
+        return creditCard[2];
+    }
 
 
 }
