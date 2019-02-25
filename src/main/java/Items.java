@@ -13,8 +13,8 @@ public class Items {
 
     public String getCCNumber(String[] creditCard){
         return creditCard[0];
-
     }
+
     public String getExpirty(String[] creditCard){
         return creditCard[1];
 
