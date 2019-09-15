@@ -32,7 +32,8 @@ public class ItemsTest {
     }
 
     @Test
-    public void getCVC() throws Exception {
+    public void getCVC1() throws Exception {
+         Assert.assertEquals("1", "1");
     }
 
 }
